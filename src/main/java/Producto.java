@@ -1,7 +1,7 @@
 
 import java.util.Objects;
 
-public class Producto implements Comparable<Producto>{
+public abstract class Producto implements Comparable<Producto>{
     private Integer precio;
     private String nombre;
 
